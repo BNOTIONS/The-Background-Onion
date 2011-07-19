@@ -1,0 +1,54 @@
+#interface {
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+header,footer,section,nav,.row {
+	min-height: 20px;
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+	clear: both;
+	/* REMOVE OR OVERRIDE THIS BORDER */
+	border: 1px solid #f63;
+}
+
+.startcol, .endcol, .midcol {
+	min-height: 50px;
+	overflow: hidden;
+	position: relative;
+	/* REMOVE OR OVERRIDE THIS BORDER */
+	border: 1px solid #068;
+}
+
+.startcol {
+	float: left;
+	width: 30%;
+}
+
+.endcol {
+	width: 40%;
+	float: right;
+}
+
+.midcol {
+	width: 30%;
+	float: left;
+}
+
+.col2 .startcol, .col2 .endcol {
+	width: 48%;
+}
+
+.col3 .startcol, .col3 .endcol, .col3 .midcol {
+	width: 30%;
+}
+
+.col4 .startcol, .col4 .endcol, .col4 .midcol {
+	width: 23%;
+}
+
+.col5 .startcol, .col5 .endcol, .col5 .midcol {
+	width: 18%;
+}
